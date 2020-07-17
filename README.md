@@ -1,6 +1,10 @@
 This is a repository for launching your own node to support MFElements project. 
 
-To launch node you need Docker and docker-compose to be installed on machine with supported architecture.
+Prerequisites:
+* [Docker](https://www.docker.com/)
+* [docker-compose](https://docs.docker.com/compose/)
+* Docker is added to autostart as a service
+* Public static IP
 
 #### Supported architectures:
 * x86
@@ -38,7 +42,7 @@ WantedBy=multi-user.target
 Now enable the service:
 
 ```
-$ sudo systemctl enable --now mfc-node
+# systemctl enable --now mfc-node
 ```
 
 ##### OpenRC
