@@ -1,12 +1,14 @@
 This is a repository for launching your own node to support MFElements project. 
 
-Prerequisites:
+#### Prerequisites:
+
 * [Docker](https://www.docker.com/)
 * [docker-compose](https://docs.docker.com/compose/)
 * Docker is added to autostart as a service
 * Public static IP
 
 #### Supported architectures:
+
 * x86
 * x86_64
 * armv7
@@ -15,10 +17,12 @@ Prerequisites:
 * s390x
 
 #### Prepare the node:
+
 1. Clone repository to your services directory and enter it
 1. Change the owner of `data/daemon` directory <pre>$ chown 405:0 data/daemon</pre>
 
 #### Add to autostart
+
 ##### Systemd
 
 Create file named `/etc/systemd/system/mfc-node.service` with following contents (change `/path/to/services` to your services folder):
