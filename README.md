@@ -1,4 +1,4 @@
-This is a repository for launching your own node for supporting MFElements project. 
+This is a repository for launching your own node to support MFElements project. 
 
 To launch node you need Docker and docker-compose to be installed on machine with supported architecture.
 
