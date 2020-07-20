@@ -24,3 +24,6 @@ services:
       - 22825:22825
     depends_on:
       - mfcoind
+    entrypoint:
+      - /usr/bin/node
+      - index.mjs
