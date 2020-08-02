@@ -5,7 +5,7 @@ This is a repository for launching your own node to support MFElements project.
 * [Docker](https://www.docker.com/)
 * [docker-compose](https://docs.docker.com/compose/)
 * Docker is added to autostart as a service
-* Public static IP
+* Public domain to access node from outside
 
 #### Supported architectures:
 
